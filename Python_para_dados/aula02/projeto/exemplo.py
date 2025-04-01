@@ -89,12 +89,12 @@ print(f"{area_do_circulo:.2f}") """
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data_do_usuario = input('Insira uma data no formato dd/mm/aaaa: ')
-lista_dia_mes_ano = data_do_usuario.split("/")
+# data_do_usuario = input('Insira uma data no formato dd/mm/aaaa: ')
+# lista_dia_mes_ano = data_do_usuario.split("/")
 
-print(f"O elemento 1 da data é: {lista_dia_mes_ano[0]}")
-print(f'O elemento 2 da data é: {lista_dia_mes_ano[1]}')
-print(f'O elemento 3 da data é: {lista_dia_mes_ano[2]}')
+# print(f"O elemento 1 da data é: {lista_dia_mes_ano[0]}")
+# print(f'O elemento 2 da data é: {lista_dia_mes_ano[1]}')
+# print(f'O elemento 3 da data é: {lista_dia_mes_ano[2]}')
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
@@ -106,11 +106,50 @@ print(f'O elemento 3 da data é: {lista_dia_mes_ano[2]}')
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+""" entrada1 = input("Digite a primeira expressão bolleana (True/False): ")
+entrada2 = input("Digite a segunda expressão bolleana (True/False): ")
 
+bool1 = entrada1.lower() == "true"
+bool2 = entrada2.lower() == "true"
+
+resultado = bool1 and bool2
+
+print("o resultado do AND lógico é: ", resultado) """
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.()
+""" entrada1 = input("Digite a primeira expressão bolleana (True/False): ")
+entrada2 = input("Digite a segunda expressão bolleana (True/False): ")
+
+bool1 = entrada1.lower() == "true"
+bool2 = entrada2.lower() == "true"
+
+resultado = bool1 or bool2
+
+print("o resultado do AND lógico é: ", resultado) """
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+""" entrada = input("Digite um valor bolleano (True/False): ")
+
+valor_original = entrada.lower() == 'true'
+
+valor_invertido = not valor_original
+
+print(f"O valor digitado foi: {valor_original}")
+print(f"O valor invertido foi: {valor_invertido}") """
+# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+""" num1 = float(input("Digite o primeiro numero para comparação: "))
+num2 = float(input("digitte o segundo numero para comparação: "))
+
+if num1==num2:
+    print(f"Os úmeros {num1} e {num2} são IGUAIS!")
+else:
+    print(f"os números {num1} e {num2} são DIFERENTES!") """
+# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+""" num1 = float(input("Digite o primeiro numero para comparação: "))
+num2 = float(input("digitte o segundo numero para comparação: "))
+
+if num1==num2:
+    print(f"Os úmeros {num1} e {num2} são IGUAIS!")
+else:
+    print(f"os números {num1} e {num2} são DIFERENTES!") """
 # #### try-except e if
 
 # 21: Conversor de Temperatura
